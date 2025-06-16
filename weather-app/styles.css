@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(64, 180, 256);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+h2{
+    
+}
+p{
+  
+}
+.vreme{
+    background-color: rgba(101, 208, 247, 0.651);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    height: 550px;
+    width: 500px;
+    
+}
+.vreme h2{
+    margin: 10px;
+
+}
+.detalii{
+    margin-top: 250px;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: start;
+   
+}
+.detalii p{
+    margin: 3px;
+
+}
+.search {
+    display: flex;
+    gap: 20px;
+    align-content: end;
+    margin-bottom: 20px;
+}
+.search input{
+    padding: 10px;
+    width: 425px;
+    border-radius: 5px;
+}
+.search button{
+    padding: 10px 11px;
+    align-items: end;
+    border: none;
+    background-color: rgba(101, 208, 247, 0.651);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+  
